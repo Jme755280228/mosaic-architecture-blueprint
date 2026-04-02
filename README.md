@@ -1,9 +1,6 @@
 <p align="center">
   <img src="./assets/images/mosaic1.png" alt="Myan-Bot-Ultimate Mosaic Architecture Banner" width="100%">
 </p>
-<br>
-
----
 
 # 🛡️ Mosaic Architecture: Myan-Bot-Ultimate Blueprint
 
@@ -105,5 +102,19 @@ graph TD
 
 ---
 
-*Created by: Zaw Win Htay (Jme)*<br>
-*Backend Engineer | The Modular Mindset*
+- [Read the Architecture Design Docs](./ARCHITECTURE.md)
+
+---
+
+### Contribution Guidelines
+
+> "This is a blueprint project. Feel free to explore the architecture or reach out for discussions."
+
+---
+
+- **LinkedIn**: [Zaw Win Htay (Jme)](https://www.linkedin.com/in/zaw-win-htay-jme)
+- **Newsletter**: [The Modular Green Chip Mindset](https://www.linkedin.com/pulse/green-chip-philosophy-why-i-build-ethics-mind-zaw-win-htay-fnhyc?utm_source=share&utm_medium=member_android&utm_campaign=share_via)
+- **Email**: [zawinhtayjme@example.com]
+
+---
+*Created by: Zaw Win Htay (Jme)*

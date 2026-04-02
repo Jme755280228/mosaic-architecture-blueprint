@@ -112,5 +112,6 @@ Architecture is more than just code; it is a commitment to quality.
 
 ---
 
-***Maintained by: Zaw Win Htay (Jme)***<br>
-***Status: Architecture Stable 🛡️***
+**Author:** [Zaw Win Htay (Jme)](https://www.linkedin.com/in/zaw-win-htay-jme) <br>
+*Backend Architect | Focusing on Modular Go Systems*
+
