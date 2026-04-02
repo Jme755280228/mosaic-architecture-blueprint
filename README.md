@@ -12,7 +12,7 @@
 
 > I follow the ***Hexagonal/Clean Architecture*** principle to ensure that the Business Logic (Core) is completely decoupled from the Delivery Mechanism (Telegram Bot).
 
-```Mermaid
+```mermaid
 graph TD
     subgraph "Delivery Layer (UI)"
         TG[Telegram Bot Handler]

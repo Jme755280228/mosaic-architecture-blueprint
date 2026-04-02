@@ -8,7 +8,7 @@
 
  The core principle is ***Strict Decoupling***. The business logic (Service Layer) does not know about the delivery mechanism (Telegram API).
  
- ```Mermaid
+ ```mermaid
  graph TD
     subgraph "Delivery Layer (UI)"
         TG[Telegram Bot Handler]
@@ -114,4 +114,5 @@ Architecture is more than just code; it is a commitment to quality.
 
 **Author:** [Zaw Win Htay (Jme)](https://www.linkedin.com/in/zaw-win-htay-jme) <br>
 *Backend Architect | Focusing on Modular Go Systems*
-
+<br>
+`Fri,Apr032026`
