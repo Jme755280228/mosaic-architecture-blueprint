@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./assets/images/mosaic3.png" alt="Myan-Bot-Ultimate Mosaic Architecture Banner" width="100%">
+</p>
+
+
 # 🎨 The Mosaic Design Philosophy
 
 > "A system is not just a block of code; it is a collection of distinct, purposeful tiles that create a masterpiece when unified."
