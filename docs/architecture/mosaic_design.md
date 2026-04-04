@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/images/mosaic3.png" alt="Myan-Bot-Ultimate Mosaic Architecture Banner" width="100%">
+  <img src="./././assets/images/mosaic3.png" alt="Myan-Bot-Ultimate Mosaic Architecture Banner" width="100%">
 </p>
 
 
