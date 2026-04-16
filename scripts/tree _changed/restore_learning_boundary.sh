@@ -1,3 +1,26 @@
+#!/bin/bash
+
+echo "🚀 Restoring Learning Boundary and updating Architecture..."
+
+# 1. internal/service ထဲမှာ learning_service ကို ပြန်ဆောက်မယ်
+mkdir -p internal/service/learning_service/domain
+
+# 2. Placeholder file ထည့်မယ်
+if [ ! -f internal/service/learning_service/domain/models.go ]; then
+    cat <<EOF > internal/service/learning_service/domain/models.go
+package domain
+
+// Content သည် Learning Boundary ၏ အဓိက Data Structure ဖြစ်သည်။
+type Content struct {
+    ID    string
+    Title string
+    Body  string
+}
+EOF
+fi
+
+# 3. ARCHITECTURE.md ကို Boundary နှစ်ခုလုံးပါအောင် ပြန်ရေးမယ်
+cat <<EOF > ARCHITECTURE.md
 <img src="./assets/images/mosaic2.png" alt="Myan-Bot-Ultimate Mosaic Architecture Banner" width="100%">
 
 # 🏛️ Project Architecture: Mosaic v2.1 (Multi-Boundary System)
@@ -6,7 +29,7 @@
 
 ## 🏗️ 1. Architecture Visualization (Mermaid)
 
-```mermaid
+\`\`\`mermaid
 graph TD
     subgraph "Delivery Layer"
         TG[Telegram Adapter]
@@ -35,13 +58,13 @@ graph TD
     UI --> TS & LS
     TS & LS --> DB
     USER --> DB
-```
+\`\`\`
 
 ---
 
 ## 📂 2. Directory Structure
 
-```text
+\`\`\`text
 ~/mosaic-architecture-blueprint
 ├── cmd/bot/main.go            # 🚀 Entry Point
 ├── internal/
@@ -55,7 +78,7 @@ graph TD
 │   │   └── user/              # Identity Management
 │   └── app/                   # 🏗️ Bootstrapper
 └── docs/                      # 📜 Governance & History
-```
+\`\`\`
 
 ---
 
@@ -81,4 +104,9 @@ UI Logic များကို Platform layer တွင် စုစည်းထ
 **Author:** [Zaw Win Htay (Jme)](https://www.linkedin.com/in/zaw-win-htay-jme) <br>
 *Backend Architect | Focusing on Modular Go Ecosystems*
 <br>
-**Last Updated:** `Thu, Apr 16 2026`
+**Last Updated:** \`Thu, Apr 16 2026\`
+EOF
+
+chmod +x "$0"
+echo "✅ Learning Boundary restored and ARCHITECTURE.md updated!"
+
