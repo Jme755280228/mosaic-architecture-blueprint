@@ -39,7 +39,7 @@ internal/
 
 ### 🗺️ Documentation Links
 - [Architecture Deep Dive](ARCHITECTURE.md)
-- [Telecom Domain Specs](internal/service/telecom/docs/architecture.md
+- [Telecom Domain Specs](internal/service/telecom/docs/architecture.md)
 - [Development Philosophy](docs/constitution/ARCHITECTURE/ARCHITECTURE.md)
 
 ---
